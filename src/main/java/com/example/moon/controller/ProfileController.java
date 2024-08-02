@@ -1,8 +1,6 @@
 package com.example.moon.controller;
 
-import com.example.moon.DTO.NotificationDTO;
 import com.example.moon.DTO.PageDTO;
-import com.example.moon.mapper.UserMapper;
 import com.example.moon.model.User;
 import com.example.moon.service.NotificationService;
 import com.example.moon.service.QuestionService;
@@ -45,7 +43,7 @@ public class ProfileController {
             model.addAttribute("section","questions");
             model.addAttribute("sectionName","我的提问");
             //分页
-            PageDTO pageDTO= questionService.list(user.getId(),page,size);
+            PageDTO pageDTO= questionService.listBySearch(user.getId(),page,size);
             model.addAttribute("pageDTO",pageDTO);
 
 

@@ -1,0 +1,105 @@
+2024-08-02T17:55:39.111+08:00  INFO 32044 --- [moon] [restartedMain] com.example.moon.MoonApplication         : Starting MoonApplication using Java 20.0.1 with PID 32044 (D:\tools\java\IDEA-ultimate-project\stuty-project\MoonPractice\target\classes started by 白月青竹 in D:\tools\java\IDEA-ultimate-project\stuty-project\MoonPractice)
+2024-08-02T17:55:39.113+08:00  INFO 32044 --- [moon] [restartedMain] com.example.moon.MoonApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:55:39.153+08:00  INFO 32044 --- [moon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-02T17:55:39.154+08:00  INFO 32044 --- [moon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-02T17:55:39.744+08:00  INFO 32044 --- [moon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02T17:55:39.767+08:00  INFO 32044 --- [moon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-08-02T17:55:40.305+08:00  INFO 32044 --- [moon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8887 (http)
+2024-08-02T17:55:40.308+08:00  INFO 32044 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [2.0.3] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-02T17:55:40.309+08:00  INFO 32044 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+2024-08-02T17:55:40.314+08:00  INFO 32044 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+2024-08-02T17:55:40.323+08:00  INFO 32044 --- [moon] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-02T17:55:40.323+08:00  INFO 32044 --- [moon] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-08-02T17:55:40.384+08:00  INFO 32044 --- [moon] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-02T17:55:40.385+08:00  INFO 32044 --- [moon] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1231 ms
+2024-08-02T17:55:40.533+08:00  INFO 32044 --- [moon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-02T17:55:40.828+08:00  INFO 32044 --- [moon] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b8a5f12
+2024-08-02T17:55:40.830+08:00  INFO 32044 --- [moon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-02T17:55:40.874+08:00  INFO 32044 --- [moon] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02T17:55:40.934+08:00  INFO 32044 --- [moon] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02T17:55:40.972+08:00  INFO 32044 --- [moon] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-02T17:55:41.276+08:00  INFO 32044 --- [moon] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02T17:55:41.623+08:00  INFO 32044 --- [moon] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02T17:55:41.627+08:00  INFO 32044 --- [moon] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T17:55:41.949+08:00  WARN 32044 --- [moon] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02T17:55:41.974+08:00  INFO 32044 --- [moon] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-02T17:55:42.387+08:00  INFO 32044 --- [moon] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-02T17:55:42.421+08:00  INFO 32044 --- [moon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8887 (http) with context path '/'
+2024-08-02T17:55:42.429+08:00  INFO 32044 --- [moon] [restartedMain] com.example.moon.MoonApplication         : Started MoonApplication in 3.722 seconds (process running for 4.475)
+2024-08-02T17:56:11.860+08:00  INFO 32044 --- [moon] [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02T17:56:11.860+08:00  INFO 32044 --- [moon] [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-02T17:56:11.861+08:00  INFO 32044 --- [moon] [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-02T17:56:15.180+08:00  WARN 32044 --- [moon] [http-nio-8887-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-08-02T17:59:35.705+08:00  INFO 32044 --- [moon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T17:59:35.707+08:00  INFO 32044 --- [moon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-02T17:59:35.715+08:00  INFO 32044 --- [moon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-02T17:59:40.623+08:00  INFO 27372 --- [moon] [restartedMain] com.example.moon.MoonApplication         : Starting MoonApplication using Java 20.0.1 with PID 27372 (D:\tools\java\IDEA-ultimate-project\stuty-project\MoonPractice\target\classes started by 白月青竹 in D:\tools\java\IDEA-ultimate-project\stuty-project\MoonPractice)
+2024-08-02T17:59:40.625+08:00  INFO 27372 --- [moon] [restartedMain] com.example.moon.MoonApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:59:40.672+08:00  INFO 27372 --- [moon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-02T17:59:40.672+08:00  INFO 27372 --- [moon] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-02T17:59:41.299+08:00  INFO 27372 --- [moon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02T17:59:41.323+08:00  INFO 27372 --- [moon] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2024-08-02T17:59:41.868+08:00  INFO 27372 --- [moon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8887 (http)
+2024-08-02T17:59:41.871+08:00  INFO 27372 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [2.0.3] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-08-02T17:59:41.872+08:00  INFO 27372 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+2024-08-02T17:59:41.877+08:00  INFO 27372 --- [moon] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+2024-08-02T17:59:41.886+08:00  INFO 27372 --- [moon] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-02T17:59:41.886+08:00  INFO 27372 --- [moon] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-08-02T17:59:41.936+08:00  INFO 27372 --- [moon] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-02T17:59:41.937+08:00  INFO 27372 --- [moon] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1265 ms
+2024-08-02T17:59:42.077+08:00  INFO 27372 --- [moon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-02T17:59:42.385+08:00  INFO 27372 --- [moon] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48a6e177
+2024-08-02T17:59:42.387+08:00  INFO 27372 --- [moon] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-02T17:59:42.426+08:00  INFO 27372 --- [moon] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02T17:59:42.485+08:00  INFO 27372 --- [moon] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02T17:59:42.527+08:00  INFO 27372 --- [moon] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-02T17:59:42.864+08:00  INFO 27372 --- [moon] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02T17:59:43.230+08:00  INFO 27372 --- [moon] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02T17:59:43.236+08:00  INFO 27372 --- [moon] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T17:59:43.603+08:00  WARN 27372 --- [moon] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02T17:59:43.628+08:00  INFO 27372 --- [moon] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-08-02T17:59:44.083+08:00  INFO 27372 --- [moon] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-02T17:59:44.118+08:00  INFO 27372 --- [moon] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8887 (http) with context path '/'
+2024-08-02T17:59:44.126+08:00  INFO 27372 --- [moon] [restartedMain] com.example.moon.MoonApplication         : Started MoonApplication in 3.906 seconds (process running for 4.855)
+2024-08-02T17:59:46.004+08:00  INFO 27372 --- [moon] [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02T17:59:46.005+08:00  INFO 27372 --- [moon] [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-02T17:59:46.006+08:00  INFO 27372 --- [moon] [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-02T17:59:46.072+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user WHERE ( token = ? )
+2024-08-02T17:59:46.087+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.mapper.UserMapper.selectByExample  : ==> Parameters: a449a38e-7096-4296-a80f-eb7db3af6a5f(String)
+2024-08-02T17:59:46.100+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.mapper.UserMapper.selectByExample  : <==      Total: 1
+2024-08-02T17:59:46.156+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.QuestionMapper.countByExample    : ==>  Preparing: select count(*) from question
+2024-08-02T17:59:46.156+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.QuestionMapper.countByExample    : ==> Parameters: 
+2024-08-02T17:59:46.159+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.QuestionMapper.countByExample    : <==      Total: 1
+2024-08-02T17:59:46.160+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.Q.selectByExampleWithRowbounds   : ==>  Preparing: select id, title, gmt_create, gmt_modified, creator, comment_count, view_count, like_count, tag from question order by gmt_create desc
+2024-08-02T17:59:46.160+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.Q.selectByExampleWithRowbounds   : ==> Parameters: 
+2024-08-02T17:59:46.163+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.165+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.167+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.169+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.170+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.171+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.171+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.171+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.172+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.172+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.173+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.173+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.174+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.174+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.175+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.175+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.175+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.176+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.176+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.176+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.177+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.178+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ?
+2024-08-02T17:59:46.178+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2024-08-02T17:59:46.179+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-1] c.e.m.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2024-08-02T17:59:46.673+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-8] c.e.m.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user WHERE ( token = ? )
+2024-08-02T17:59:46.674+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-8] c.e.m.mapper.UserMapper.selectByExample  : ==> Parameters: a449a38e-7096-4296-a80f-eb7db3af6a5f(String)
+2024-08-02T17:59:46.676+08:00 DEBUG 27372 --- [moon] [http-nio-8887-exec-8] c.e.m.mapper.UserMapper.selectByExample  : <==      Total: 1
+2024-08-02T17:59:46.685+08:00  WARN 27372 --- [moon] [http-nio-8887-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-08-02T18:06:34.063+08:00  INFO 27372 --- [moon] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02T18:06:34.065+08:00  INFO 27372 --- [moon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-02T18:06:34.072+08:00  INFO 27372 --- [moon] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
